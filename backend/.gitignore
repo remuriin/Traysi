@@ -1,0 +1,24 @@
+# Firebase CLI
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Firebase Functions
+functions/node_modules/
+functions/lib/
+functions/.env
+functions/.env.*
+!functions/.env.example
+
+# Emulator data
+emulator-data/
+firestore_export/
+
+# Credentials
+serviceAccountKey.json
+*-service-account.json
+
+# General dependencies and logs
+node_modules/
+*.log
